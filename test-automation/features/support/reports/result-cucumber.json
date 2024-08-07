@@ -1,0 +1,268 @@
+[
+  {
+    "uri": "features/scenarios/test/desktop/dev/sample.feature",
+    "id": "web-automation-task---erafone-&-tokopedia",
+    "keyword": "Feature",
+    "name": "Web Automation task - erafone & tokopedia",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@desktop",
+        "line": 1
+      },
+      {
+        "name": "@sample",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "web-automation-task---erafone-&-tokopedia;user-combine-product-iphone-15-pro-between-2-website",
+        "keyword": "Scenario",
+        "name": "user combine product iphone 15 pro between 2 website",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@desktop",
+            "line": 1
+          },
+          {
+            "name": "@sample",
+            "line": 1
+          },
+          {
+            "name": "@test",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2799083000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user access website erafone",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4189495000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user input \"iPhone 15 Pro\" on searchbox erafone",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345805000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button search on erafone",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280528000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "system show search result page for \"iPhone 15 Pro\" on erafone",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251466000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user sort by ascending on erafone from cheapest",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12748981000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user open new tab",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59242000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user access website tokopedia",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3320830000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input \"iPhone 15 Pro\" on searchbox tokopedia",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102921000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button search on tokopedia",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208720000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "system show search result page for \"iPhone 15 Pro\" on tokopedia",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 808550000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user sort by ascending on tokopedia from cheapest",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22586207000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user combine & compare product from both website",
+            "line": 17,
+            "output": [
+              "Erafone",
+              "Lamina Clear Case for iPhone 15 Pro Max",
+              "Rp 99.000",
+              "https://eraspace.com/erafone/produk/lamina-clear-case-for-iphone-15-pro-max",
+              "Lamina Camera Protector iPhone 15/15 Plus",
+              "Rp 99.000",
+              "https://eraspace.com/erafone/produk/lamina-camera-protector-iphone-15-15-plus-ur",
+              "Lamina Clear Case for iPhone 15 Pro",
+              "Rp 99.000",
+              "https://eraspace.com/erafone/produk/lamina-clear-case-for-iphone-15-pro",
+              "Lamina Clear Case for iPhone 15 Pro",
+              "Rp 99.000",
+              "https://eraspace.com/erafone/produk/lamina-clear-case-for-iphone-15-pro",
+              "-",
+              "Tokopedia",
+              "Apple iphone 15 Pro/Pro Max 64GB/128GB/256GB Fullset Second 100% Mulus",
+              "Rp3.500.000",
+              "https://www.tokopedia.com/dyvastoree/apple-iphone-15-pro-pro-max-64gb-128gb-256gb-fullset-second-100-mulus-64-gb-black-titanium-181b8?extParam=ivf%3Dfalse%26keyword%3Diphone+15+pro%26search_id%3D20240807160029B4969894383F3333FD7U%26src%3Dsearch",
+              "Apple iphone 15 Pro/Pro Max 64GB/128GB/256GB Fullset Second 100% Mulus",
+              "Rp3.505.000",
+              "https://www.tokopedia.com/spacephone58/apple-iphone-15-pro-pro-max-64gb-128gb-256gb-fullset-second-100-mulus-64-gb-black-titanium-e2660?extParam=ivf%3Dfalse%26keyword%3Diphone+15+pro%26search_id%3D20240807160033B4F2D67C27D4722E00X4%26src%3Dsearch",
+              "Apple iphone 15 Pro/Pro Max 64GB/128GB/256GB Fullset Second 100% Mulus",
+              "Rp3.505.000",
+              "https://www.tokopedia.com/tulusdigital168/apple-iphone-15-pro-pro-max-64gb-128gb-256gb-fullset-second-100-mulus-64-gb-black-titanium-a1c5c?extParam=ivf%3Dfalse%26keyword%3Diphone+15+pro%26search_id%3D20240807160038852D534C30F0B23B6JP4%26src%3Dsearch",
+              "Apple iPhone 15 PRO/PRO MAX 64GB/128GB/256GB fullset Second Ori",
+              "Rp3.505.000",
+              "https://www.tokopedia.com/superfix168/apple-iphone-15-pro-pro-max-64gb-128gb-256gb-fullset-second-ori-64-gb-black-titanium-c35c4?extParam=ivf%3Dfalse%26keyword%3Diphone+15+pro%26search_id%3D20240807160044B7F01D401AF6772604XP%26src%3Dsearch"
+            ],
+            "match": {
+              "location": "features/step_definitions/test/desktop/dev/sample_steps.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 770250000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

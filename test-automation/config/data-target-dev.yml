@@ -1,0 +1,5 @@
+#GENERAL
+DOMAIN_NAME: https://eraspace.com/erafone
+WEB_BASE_URL: https://eraspace.com/erafone
+WEB_TOKOPEDIA_URL: https://tokopedia.com/
+ASSERT_URL_WAIT_TIME: 3
