@@ -34,7 +34,7 @@ Software Automation Testing using ruby and cucumber
     brew install cmake pkg-config && sudo ln -s /usr/local/bin/make /usr/local/bin/gmake
   ```
 
-11. Setup Gem
+7. Setup Gem
 
   ```
     rvm use 2.6.3@web-test --create
@@ -42,7 +42,7 @@ Software Automation Testing using ruby and cucumber
     bundle install
   ```
 
-12. Run the Test
+8. Run the Test
 
   ```
     cucumber TARGET=dev BROWSER=firefox PRIVATE=no HEADLESS=no --tags @test
